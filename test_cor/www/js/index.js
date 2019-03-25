@@ -65,9 +65,9 @@ var app = {
         //lines added inappbrowser
 
 
-        var inAppBrowserbRef = cordova.InAppBrowser.open('https://electrostar.ovplatform.tk', '_self', 'location=no,toolbar=no');
-
-        inAppBrowserbRef = cordova.InAppBrowser.open('http://walaa.realdeal.com.eg/fashionapp-master/fashionapp/www/', '_self', 'location=no,toolbar=no,zoom=no');
+        
+        
+        var inAppBrowserbRef = cordova.InAppBrowser.open('http://walaa.realdeal.com.eg/fashionapp-master/fashionapp/www/', '_self', 'location=no,toolbar=no,zoom=no');
 
         //admob
      // Set AdMobAds options:
@@ -75,7 +75,7 @@ var app = {
         publisherId:           "ca-app-pub-7251676025279948/7407344163",  // Required
         interstitialAdId:      "ca-app-pub-7251676025279948/2753783281",  // Optional
         autoShowBanner:        true,                                      // Optional
-        autoShowRInterstitial: false,                                     // Optional
+        autoShowRInterstitial: true,                                     // Optional
         autoShowRewarded:      false,                                     // Optional
         tappxIdiOS:            "/XXXXXXXXX/Pub-XXXX-iOS-IIII",            // Optional
         tappxIdAndroid:        "/XXXXXXXXX/Pub-XXXX-Android-AAAA",        // Optional
